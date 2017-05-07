@@ -7,3 +7,15 @@ console.log(z); // { a: 3, b: 4 }
 ```
 
 > npm install --save-dev babel-plugin-transform-object-rest-spread
+
+> {
+  "plugins": [
+    ["transform-object-rest-spread", { "useBuiltIns": true }]
+  ]
+}
+
+or 
+
+> {
+  "plugins": ["transform-object-rest-spread"]
+}
